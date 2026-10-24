@@ -1,0 +1,25 @@
+/build/
+/artifacts/
+*.user
+*.autosave
+/dist/
+*.report.json
+
+/library/
+
+/MUJOCO_LOG.TXT
+
+/build-reliability/
+
+/build-asan/
+
+/build-motion/
+
+/build-motion-delivery/
+
+/build-motion-asan/
+
+# Development build variants and Python caches
+/build-*/
+__pycache__/
+*.pyc

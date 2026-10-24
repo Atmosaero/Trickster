@@ -1,0 +1,5 @@
+MuJoCo 3.3.7 (official native C API)
+https://github.com/google-deepmind/mujoco/releases/tag/3.3.7
+Windows x86_64 archive: mujoco-3.3.7-windows-x86_64.zip
+SHA256: 1108ad01f6a1e63d42725188404c9af50b81902c368ef026d20d5148c115a08b
+Obtained by CMake; unmodified dynamic library. No Python runtime.

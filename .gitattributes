@@ -1,0 +1,2 @@
+# Keep vendored upstream sources byte-for-byte, including their original whitespace.
+third_party/** -text -whitespace linguist-vendored

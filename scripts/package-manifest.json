@@ -1,0 +1,103 @@
+{
+  "files": [
+    "LICENSE",
+    "README.md",
+    "THIRD_PARTY.md",
+    "CHANGELOG.md",
+    "AGENTS.md",
+    "CMakeLists.txt",
+    "build.ps1",
+    "package.ps1",
+    "run.ps1",
+    ".clang-format",
+    ".gitignore",
+    ".gitattributes"
+  ],
+  "guides": [
+    "docs/BUILD.md",
+    "docs/TESTING.md",
+    "docs/ARCHITECTURE.md",
+    "docs/MOTION.md",
+    "docs/MOTION_ANALYSIS.md",
+    "docs/NOTES.md",
+    "docs/MCP.md",
+    "docs/DEMOS.md",
+    "docs/SCENE_LIBRARY.md",
+    "docs/RELEASES.md",
+    "docs/ROADMAP.md",
+    "docs/PHYSICS.md",
+    "docs/PHYSICS_MIGRATION.md",
+    "docs/PHYSICS_RELIABILITY.md",
+    "docs/PHYSICS_ACCEPTANCE.md",
+    "docs/releases/0.5.0.md"
+  ],
+  "guideAssets": [
+    "docs/motion-workspace.png",
+    "docs/motion-tools/graph.png",
+    "docs/motion-tools/diagnostic-viewport.png",
+    "docs/notes/card-1.png",
+    "docs/notes/panel-1.png",
+    "docs/notes/card-1.5.png",
+    "docs/notes/panel-1.5.png"
+  ],
+  "examples": [
+    "examples/hand-correction.trickster",
+    "examples/jump-correction.trickster",
+    "examples/motion-correction.glb",
+    "examples/motion-correction.trickster",
+    "examples/motion-tools/README.md",
+    "examples/motion-tools/annotated-jump.trickster",
+    "examples/motion-tools/curves-paths.trickster",
+    "examples/motion-tools/manifest.json",
+    "examples/motion-tools/penetration-and-contact.trickster",
+    "examples/motion-tools/retarget-result.trickster",
+    "examples/motion-tools/retarget-target.trickster",
+    "examples/physics/README.md",
+    "examples/physics/com-model.xml",
+    "examples/physics/com-result.trickster",
+    "examples/physics/com-source.trickster",
+    "examples/physics/jump-model.xml",
+    "examples/physics/jump-result.trickster",
+    "examples/physics/jump-source.trickster",
+    "examples/physics/landing-model.xml",
+    "examples/physics/landing-result.trickster",
+    "examples/physics/landing-source.trickster",
+    "examples/physics/legacy-v4.trickster",
+    "examples/physics/squat-model.xml",
+    "examples/physics/squat-result.trickster",
+    "examples/physics/squat-source.trickster",
+    "examples/physics/tuck-model.xml",
+    "examples/physics/tuck-result.trickster",
+    "examples/physics/tuck-source.trickster",
+    "examples/physics/whole-body-model.xml",
+    "examples/physics/whole-body-result.trickster",
+    "examples/physics/whole-body-source.trickster",
+    "examples/reliability/README.md",
+    "examples/walk-correction.trickster",
+    "examples/welcome.glb",
+    "examples/welcome.trickster"
+  ],
+  "sourceDirectories": [
+    "src",
+    "tests",
+    "scripts",
+    "third_party",
+    "licenses"
+  ],
+  "qtLibraries": [
+    "Qt6Core.dll",
+    "Qt6Gui.dll",
+    "Qt6Widgets.dll",
+    "Qt6OpenGL.dll",
+    "Qt6OpenGLWidgets.dll",
+    "Qt6Network.dll"
+  ],
+  "qtPlugins": [
+    "platforms/qwindows.dll",
+    "imageformats/qjpeg.dll"
+  ],
+  "optionalQtPlugins": [
+    "styles/qmodernwindowsstyle.dll",
+    "styles/qwindowsvistastyle.dll"
+  ]
+}
